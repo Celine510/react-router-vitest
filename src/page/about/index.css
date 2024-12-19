@@ -1,0 +1,20 @@
+.about-nav {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 3rem;
+  a {
+    text-decoration: none;
+    color: #fdf0d5;
+  }
+  a:hover {
+    color: #fff;
+  }
+}
+
+.outlet-content {
+  min-width: 500px;
+  min-height: 300px;
+  color: #c1121f;
+  border: 1px solid #c1121f;
+}

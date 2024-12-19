@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #003049;
+  color: #fdf0d5;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  border-bottom: 2px solid #fdf0d5;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.nav {
+  margin: auto 0;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  color: #fdf0d5;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #003049;
+  border-top: 2px solid #fdf0d5;
+}
+
+.social-media a {
+  color: #fdf0d5;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #fff;
+}
